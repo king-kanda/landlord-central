@@ -29,6 +29,10 @@
     --chart-3: 197 37% 24%;
     --chart-4: 43 74% 66%;
     --chart-5: 27 87% 67%;
+    --navy-blue-light: 220 100% 40%;
+    --navy-blue-dark: 220 100% 20%;
+    --orange-light: 24 100% 60%;
+    --orange-dark: 24 100% 40%;
   }
 
   .dark {
@@ -56,6 +60,10 @@
     --chart-3: 30 80% 55%;
     --chart-4: 280 65% 60%;
     --chart-5: 340 75% 55%;
+    --navy-blue-light: 220 100% 60%;
+    --navy-blue-dark: 220 100% 40%;
+    --orange-light: 24 100% 70%;
+    --orange-dark: 24 100% 50%;
   }
 }
 

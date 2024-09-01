@@ -26,9 +26,9 @@ export default function RootLayout({ children }) {
             <Sidebar />
             <main className="w-full flex-1 overflow-hidden">
               <Header />
-              <section className={` p-6 `}>
-                {children}
-              </section>
+                <section className={` p-6 `}>
+                  {children}      
+                </section>
               <Toaster />
             </main>
           </div>
