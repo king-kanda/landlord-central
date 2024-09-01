@@ -90,54 +90,51 @@ export const users = [
     },
     {
       title: 'Properties',
-      href: '/dashboard/user',
-      icon: 'user',
-      label: 'user'
+      href: '/properties',
+      icon: 'properties',
+      label: 'Properties'
     },
     {
       title: 'Units',
-      href: '/dashboard/user',
-      icon: 'user',
-      label: 'user'
+      href: '/units',
+      icon: 'units',
+      label: 'Units'
     },
     {
       title: 'Tenants',
-      href: '/dashboard/employee',
-      icon: 'employee',
-      label: 'employee'
+      href: '/tenants',
+      icon: 'tenants',
+      label: 'Tenants'
     },
     {
       title: 'Leases',
-      href: '/dashboard/profile',
-      icon: 'profile',
-      label: 'profile'
+      href: '/leases',
+      icon: 'leases',
+      label: 'Leases'
     },
     {
       title: 'Payments',
-      href: '/dashboard/kanban',
-      icon: 'kanban',
-      label: 'kanban'
+      href: '/payments',
+      icon: 'payments',
+      label: 'Payments'
     },
     {
       title: 'Invoices',
-      href: '/',
-      icon: 'login',
-      label: 'login'
+      href: '/invoices',
+      icon: 'invoices',
+      label: 'Invoices'
     },
     {
       title: 'Reports',
-      href: '/dashboard/kanban',
-      icon: 'kanban',
-      label: 'kanban'
+      href: '/reports',
+      icon: 'reports',
+      label: 'Reports'
     },
     {
       title: 'Settings',
-      href: '/dashboard/kanban',
-      icon: 'kanban',
-      label: 'kanban'
-    },
-   
-    
-
+      href: '/settings',
+      icon: 'settings',
+      label: 'Settings'
+    }
   ];
   
