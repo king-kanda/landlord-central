@@ -1,21 +1,71 @@
-import  ToastButton  from '@/components/features/toast'
+import { Revenue } from '@/components/charts/revenue';
+import Invoices from '@/components/tables/dashboard/invoices';
+import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
+import { FaExpandAlt } from "react-icons/fa";
+import { ScrollArea } from "@/components/ui/scroll-area"
+
 
 const Page = () => {
 
   return (
-    <div
-    className="flex flex-1 items-center justify-center rounded-lg border border-dashed shadow-sm h-[80vh]"
-    >
-    <div className="flex flex-col items-center gap-1 text-center">
-      <h3 className="text-2xl font-bold tracking-tight">
-        You have no products
-      </h3>
-      <p className="text-sm text-muted-foreground">
-        You can start selling as soon as you add a product.
-      </p>
-      <ToastButton/>
-    </div>
-  </div>
+    <>
+    <ScrollArea className="h-[85vh] w-full">
+        <section className="welcome-section">
+            <h1 className="text-2xl font-bold ">
+              Welcome, Mebo
+            </h1>
+            <p className="text-sm text-muted-foreground">
+              This is your property summary so far
+            </p>
+        </section>
+        <section className="card-data grid grid-cols-4 gap-4 mt-4">
+          <Card>
+            <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
+              <CardTitle className="text-sm font-medium">Total Revenue Collected</CardTitle>
+              <FaExpandAlt className="h-4 w-4 text-muted-foreground" />
+            </CardHeader>
+            <CardContent>
+              <div className="text-2xl font-bold">$45,231.89</div>
+              <p className="text-xs text-muted-foreground">+20.1% from last month</p>
+            </CardContent>
+          </Card>
+          <Card>
+            <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
+              <CardTitle className="text-sm font-medium">Tentants</CardTitle>
+              <FaExpandAlt className="h-4 w-4 text-muted-foreground" />
+            </CardHeader>
+            <CardContent>
+              <div className="text-2xl font-bold">89</div>
+              <p className="text-xs text-muted-foreground">+20.1% from last month</p>
+            </CardContent>
+          </Card>
+          <Card>
+            <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
+              <CardTitle className="text-sm font-medium">Active Leases</CardTitle>
+              <FaExpandAlt className="h-4 w-4 text-muted-foreground" />
+            </CardHeader>
+            <CardContent>
+              <div className="text-2xl font-bold">31</div>
+              <p className="text-xs text-muted-foreground">+2.1% from last month</p>
+            </CardContent>
+          </Card>
+          <Card>
+            <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
+              <CardTitle className="text-sm font-medium">Due Invoices</CardTitle>
+              <FaExpandAlt className="h-4 w-4 text-muted-foreground" />
+            </CardHeader>
+            <CardContent>
+              <div className="text-2xl font-bold">17</div>
+              <p className="text-xs text-muted-foreground">+20.1% from last month</p>
+            </CardContent>
+          </Card>
+        </section>
+        <div className="flex flex-1 gap-4 mt-4">
+            <Revenue/>
+            <Invoices/>
+        </div>
+    </ScrollArea>
+    </>
   );
 }
 
