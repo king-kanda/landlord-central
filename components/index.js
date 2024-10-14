@@ -1,7 +1,0 @@
-export { default as Navbar } from './navbar'
-export { default as Footer } from './footer'
-export { default as PricingCard } from './pricing'
-export { default as Logos } from './logos'
-export { default as Integrations } from './integrations'
-export { default as Accordion } from './accordion'
-export { default as RentChart } from './rentChart'
