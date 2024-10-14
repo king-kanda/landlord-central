@@ -1,4 +1,4 @@
-import { Revenue } from '@/components/charts/revenue';
+// import { Revenue } from '@/components/charts/revenue';
 import Invoices from '@/components/tables/dashboard/invoices';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { FaExpandAlt } from "react-icons/fa";
@@ -61,7 +61,7 @@ const Page = () => {
           </Card>
         </section>
         <div className="flex flex-1 gap-4 mt-4">
-            <Revenue/>
+            {/* <Revenue/> */}
             <Invoices/>
         </div>
     </ScrollArea>

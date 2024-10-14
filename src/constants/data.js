@@ -90,49 +90,49 @@ export const users = [
     },
     {
       title: 'Properties',
-      href: '/properties',
+      href: '/dashboard/properties',
       icon: 'properties',
       label: 'Properties'
     },
     {
       title: 'Units',
-      href: '/units',
+      href: '/dashboard/units',
       icon: 'units',
       label: 'Units'
     },
     {
       title: 'Tenants',
-      href: '/tenants',
+      href: '/dashboard/tenants',
       icon: 'tenants',
       label: 'Tenants'
     },
     {
       title: 'Leases',
-      href: '/leases',
+      href: '/dashboard/leases',
       icon: 'leases',
       label: 'Leases'
     },
     {
       title: 'Payments',
-      href: '/payments',
+      href: '/dashboard/payments',
       icon: 'payments',
       label: 'Payments'
     },
     {
       title: 'Invoices',
-      href: '/invoices',
+      href: '/dashboard/invoices',
       icon: 'invoices',
       label: 'Invoices'
     },
     {
       title: 'Reports',
-      href: '/reports',
+      href: '/dashboard/reports',
       icon: 'reports',
       label: 'Reports'
     },
     {
       title: 'Settings',
-      href: '/settings',
+      href: '/dashboard/settings',
       icon: 'settings',
       label: 'Settings'
     }
